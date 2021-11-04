@@ -8,13 +8,19 @@
  * and shall do some more automation and monitoring tasks...
  * 
  */
- 
+
+const int I_PWN_PIN = 1; //this pin connects to the converter module ZDAUTO and from there to the MUNK analog inlet
+const int U_PWN_PIN = 2; //this pin connects to the converter module ZDAUTO and from there to the MUNK analog inlet
+
 void setup() {
-  // put your setup code here, to run once:
+  
+  pinMode (I_PWM_PIN, output);
+  pinMode (U_PWM_PIN, output);
+  
 
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
 
-}
+}Doc
